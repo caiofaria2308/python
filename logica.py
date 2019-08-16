@@ -8,5 +8,3 @@ def getFatorial(x):
         print (n1[int(u)]*n2[int(u)] )
 fatorial=input()
 getFatorial(fatorial)
-
-
