@@ -49,9 +49,9 @@ if (notafinal<6):
     #Atribuição da nota substitutiva e caso ela seja maior que a da prova, ela representará os 4o%
     substitutiva=input("Digite o valor da nota substitutiva: ")
     if (float(substitutiva)<notafinal):
-        substitutiva=notafinal
+        substitutiva=prova
     substitutiva=float(substitutiva)*0.4
-    final=notafinal+float(substitutiva)
+    final=ac+float(substitutiva/2)
     
     print ('Sua média com a nota substitutiva: '+str(final))
     
