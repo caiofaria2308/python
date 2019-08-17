@@ -1,5 +1,6 @@
 #importando o banco SQLite 3
 import sqlite3
+import time
 
 #Armazenando o banco na Memória
 conn=sqlite3.connect(':memory:')
@@ -62,3 +63,4 @@ else:
     print('Você foi aprovado ! Parabéns! ')
 
 conn.close()
+time.sleep(10)    
