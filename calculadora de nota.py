@@ -47,11 +47,11 @@ print ('Sua nota final é: '+str(notafinal))
 #Se a nota for menor que 6 ele rodará o IF, se nao ele irá direto para o ELSE
 if (notafinal<6):
     #Atribuição da nota substitutiva e caso ela seja maior que a da prova, ela representará os 4o%
-    substitutiva=input("Digite o valor da nota substitutiva: ")
-    if (float(substitutiva)<notafinal):
+    substitutiva=input("Digite o valor da prova substitutiva: ")
+    if (float(substitutiva)<(prova)):
         substitutiva=prova
     substitutiva=float(substitutiva)*0.4
-    final=ac+float(substitutiva/2)
+    final=ac+float(substitutiva)
     
     print ('Sua média com a nota substitutiva: '+str(final))
     
