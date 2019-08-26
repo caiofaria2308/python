@@ -1,3 +1,4 @@
+import time
 import sqlite3
 def frange(start, stop=None, step=None):
     #Use float number in range() function
@@ -39,4 +40,7 @@ else :
         if((float(x)*0.4)+float(ac) >=6):
             print ("Você precisa tirar: "+x+" na prova para passar com a nota mínima.")
             break
+
+time.sleep(10)    
+
             
